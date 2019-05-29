@@ -3,8 +3,9 @@ require "first/doppon/gem/version"
 module First
   module Doppon
     module Gem
-      class Error < StandardError; end
-      # Your code goes here...
+      def self.greet
+        "Hi :)"
+      end
     end
   end
 end
